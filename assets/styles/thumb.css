@@ -1,0 +1,38 @@
+.thumb {
+  margin: 80px 0;
+}
+
+.thumb__image {
+  max-width: 100%;
+  height: auto;
+}
+
+.thumb__content {
+  height: 246px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.thumb__marker {
+  width: 94px;
+  height: 7px;
+  background-color: #E74040;
+}
+
+.thumb__title {
+  font-size: 40px;
+  color: var(--header-color);
+}
+
+.thumb__descript {
+  font-size: 14px;
+  color: var(--text-color);
+  max-width: 352px;
+}
+
+.thumb__button {
+  display: inline-block;
+  max-width: 100px;
+  text-align: left;
+}
