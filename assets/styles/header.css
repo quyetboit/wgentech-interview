@@ -1,0 +1,99 @@
+.wrap-header {
+  background-color: var(--bg-color);
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--height-header);
+}
+
+.header__warp-menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header__brand {
+  font-size: 2.4em;
+  color: var(--header-color);
+  padding: 0 40px;
+}
+
+.header__menu-list {
+  display: flex;
+  font-size: 1.4em;
+  color: var(--text-color);
+  opacity: 0.9;
+}
+
+.header__menu-item {
+  cursor: pointer;
+  height: 100%;
+  line-height: 1;
+  font-weight: 600;
+  padding: 18px 12px;
+}
+
+.header__menu-item.active {
+  color: var(--primary-color);
+  opacity: 1;
+}
+
+.header__menu-item:hover {
+  color: var(--primary-color);
+}
+
+.header__wrap-action {
+  display: flex;
+}
+
+.header__wrap-action .btn {
+  flex-shrink: 0;
+}
+
+.welcome-section {
+  position: relative;
+}
+
+.welcome-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.welcome-bg {
+  height: 628px;
+  background-image: url('../images/hero-cover-1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+}
+
+.intro {
+  height: 386px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro__sub-title {
+  color: var(--primary-color);
+}
+
+.intro__title {
+  font-size: 58px;
+  color: var(--header-color);
+}
+
+.intro__descript {
+  font-size: 20px;
+}
+
+.intro__button {
+
+}
