@@ -24,6 +24,7 @@
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 8px 6px 0px rgba(0, 0, 0, 0.12);
+  margin-top: 24px;
 }
 
 .card__image {

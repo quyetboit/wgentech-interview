@@ -19,7 +19,7 @@
 .header__brand {
   font-size: 2.4em;
   color: var(--header-color);
-  padding: 0 40px;
+  padding: 0 24px;
 }
 
 .header__menu-list {
